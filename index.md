@@ -5,7 +5,6 @@ author: GUEST
 publishedDate: 1st January 2020
 ---
 
-
 # Welcome to IONI Prototypes
 
 This page relates to product prototypes being developed and tested as is work in progress.
