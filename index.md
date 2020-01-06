@@ -1,4 +1,10 @@
-#H1 Welcome to IONI Prototypes
+---
+title: Ioni Introductions
+
+---
+#h1 Welcome to IONI Prototypes
+
+This page is {{page.title}}
 
 Ioni Prototypes hosted with GitHub Pages.
 
