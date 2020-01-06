@@ -2,11 +2,12 @@
 title: Ioni Introductions
 layout: default
 author: Jonathan Silvester
-publishedDate: 1st January 2020
+
 ---
 
 
-# heading1 Welcome to IONI Prototypes
+# Welcome to IONI Prototype
+
 
 This page is {{page.title}}
 
@@ -16,10 +17,6 @@ The aim of this blog is to record and discuss the discovery of new open data set
 
 '''markdown
 Snippet of Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
 
 - Bulleted
 - List
