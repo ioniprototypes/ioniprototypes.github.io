@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+# Welcome to Data Set Blog
 
-You can use the [editor on GitHub](https://github.com/ioniprototypes/opendata/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The aim of this blog is to record and discuss the discovery of new open data sets, their contents and encourage  conversations how they could be used. It is purely an exploratory exercises at this point to learn more about actual open data and how it is compilied, discovered and published.
 
 ### Markdown
 
