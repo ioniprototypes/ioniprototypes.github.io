@@ -1,20 +1,18 @@
-## Basic gh-pages
+# Slate used
 _site/
+/slate
+Gemfile
+/vendor
+Gemfile.lock
+.bundle/
+
 
 ## Environment normalization:
 /.bundle/
 /vendor/bundle
 /lib/bundler/man/
 
-# Gemfiles
-Gemfile
-Gemfile.lock
-# .ruby-version
-# .ruby-gemset
-
 # Jekyll related
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-
-/Slate
