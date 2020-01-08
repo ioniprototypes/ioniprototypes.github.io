@@ -7,7 +7,7 @@ _site/
 /lib/bundler/man/
 
 # Gemfiles
-Gemfile.lock
+# Gemfile.lock
 # .ruby-version
 # .ruby-gemset
 
