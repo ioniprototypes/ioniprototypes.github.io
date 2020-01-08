@@ -1,0 +1,17 @@
+_site/
+/slate
+Gemfile
+/vendor
+Gemfile.lock
+.bundle/
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+# Jekyll related
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
