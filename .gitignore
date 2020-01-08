@@ -11,3 +11,8 @@ Gemfile.lock
 # .ruby-version
 # .ruby-gemset
 
+# Jekyll related
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
