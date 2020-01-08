@@ -1,9 +1,11 @@
+# Slate used
 _site/
 /slate
 Gemfile
 /vendor
 Gemfile.lock
 .bundle/
+
 
 ## Environment normalization:
 /.bundle/
@@ -14,4 +16,3 @@ Gemfile.lock
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-
