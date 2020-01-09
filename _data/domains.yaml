@@ -1,0 +1,7 @@
+- name: Open Data Blog
+  description : Collected data sets
+  reference : open-data-overview.md
+- name: Open Banking
+  description : Open Banking discussion
+  reference : open-banking-overview.md
+  

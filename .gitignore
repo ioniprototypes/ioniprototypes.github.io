@@ -16,3 +16,6 @@ Gemfile.lock
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+#Project related
+snippets.md
