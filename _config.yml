@@ -3,3 +3,7 @@ theme: jekyll-theme-slate
 
 title: Data Strategy, Architecture and Governance
 description : Scanning, discovery and research.
+
+sass:
+  sass_dir: _sass
+  style: compressed
