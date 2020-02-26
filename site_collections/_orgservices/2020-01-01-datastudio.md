@@ -6,7 +6,7 @@ title: "Explore Creating Data Driven Products"
 description: "Exploring Open Banking Data"
 subline: "last updated 3rd Jan"
 categories: [orgservice]
-serviceName: Data Studio
+serviceName: data studio
 displayCategory: Data Studio
 tags: [data studio]
 publishedDate: 1/1/2020
