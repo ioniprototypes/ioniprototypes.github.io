@@ -1,9 +1,35 @@
-<div >
-     <footer>
-        {% if site.github.is_project_page %}
-          <p>{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-            {% endif %}
-          <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-    
-    </footer>
+<div class="container bg-dark">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col">
+      <ul class="list-unstyled text-light">
+        <li><p class="text-light font-weight-bold">Services</p></li>
+        <a class="text-light" href="/architecturesummary"><li>Architecture</li></a>
+        <a class="text-light" href="/datastrategysummary"><li>Data Strategy</li></a>
+        <a class="text-light" href="/datastudiosummary"><li>Data Studio</li></a>
+        <a class="text-light" href="/allblogs"><li>Blogs</li></a>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="list-unstyled text-light">
+        <li><p class="text-light font-weight-bold">Help</p></li>
+        <a class="text-light" href="/information"><li>Contact Us</li></a>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="list-unstyled text-light">
+        <li><p class="text-light font-weight-bold">Information</p></li>
+          <a class="text-light" href="/about"><li>About</li></a>
+          <a class="text-light" href="/terms"><li>Terms</li></a>
+          <a class="text-light" href="/information"><li>Privacy</li></a>
+      </ul>
+    </div>
+  </div>
 </div>
+<nav class="navbar navbar-light bg-light">
+    <ul class="list-inline text-dark">
+        <li class="list-inline-item">Copyright IONI 2020 | </li>
+        <a class="text-dark" href="/information"><li class="list-inline-item"> Terms of Website  | </li></a>
+        <a class="text-dark" href="/information"><li class="list-inline-item"> Contact  </li></a>
+      </ul>
+</nav>
+

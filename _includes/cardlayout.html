@@ -1,0 +1,28 @@
+<!--must be within a Container and source variable includes array of pages to display-->
+<div class="row row-cols-1 row-cols-md-3">
+    {% for item in {{include.collectionName}} %}
+    <div class="col mb-4">
+        <div class="card">
+            <div class="card-header">
+                <p class="text-info"> {{item.displayCategory}}</p>
+                <a href="{{item.url}}">
+                    <h5 class="card-title"> {{item.title}}</h5>
+                </a>
+            </div>
+            <div>
+                <a href="{{ item.url }}">
+                <img src="{{site.url}}{{item.pictureDir}}{{item.picture1}}" class="card-img-top" alt="...">
+                </a>
+            </div>
+            <div class="card-body">
+                <p class="card-text">{{ item.excerpt }}</p>
+                <a>
+                    <img src= "/images/icon-small.png" width="40" height="40" alt="IONI"> 
+                    Author: {{item.author}}
+                </a>
+                <p class="card-text"><small class="text-muted">Last updated {{item.publishedDate }}</small></p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

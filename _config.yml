@@ -1,9 +1,30 @@
-
 theme: jekyll-theme-slate
 
-title: Data Strategy, Architecture and Governance
-description : Scanning, discovery and research.
+title: Ioni blogs and data studio
+description : Current curated set of IONI blogs, posts, articles and research on data architecture and strategy
 
-sass:
-  sass_dir: _sass
-  style: compressed
+collections_dir: site_collections
+
+include: [/domains]
+
+collections:
+  open_banking:
+    output : True
+  data_catalogue:
+    output : True
+  architecture:
+    output : True
+  orgservices:
+    output : True
+  data_strategy:
+    output : True
+  data_studio:
+    output : True
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
+excerpt_separator: <!--more-->
