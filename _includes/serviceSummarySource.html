@@ -1,0 +1,8 @@
+<!-- Trying to make this data driven but not ideal -->
+{% if include.collectionName == "architecture" %}
+    {% assign service = {{site.architecture}} %}
+{% elsif include.collectionName == "data strategy" %}
+    {% assign service = {{site.data_strategy}} %}
+{% else %}
+    {% assign service = {{site.data_studio}} %}
+{% endif %}

@@ -6,7 +6,7 @@ title: "Linking Strategy to Product Portfolio"
 description: "Thoughts on how to create a connected and useful data strategy"
 subline: "last updated 3rd Jan"
 categories: [orgservice]
-serviceName: Data Strategy
+serviceName: "data strategy"
 displayCategory: Data Strategy
 tags: [ data strategy]
 publishedDate: 1/1/2020

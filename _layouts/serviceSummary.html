@@ -26,7 +26,8 @@
         </div>
         <div>
           <!--temp fix, gets site.collectionName-->
-          {% include {{page.dataSource}} %}
+          {% assign tempSource= {{page.serviceName}}%}
+          {% include serviceSummarySource.html collectionName = tempSource %}
           <!--for given collection name display all pages in that ioni service collection-->
           {% include cardlayout.html collectionName= service %}
           <!--end of cards for defined collection-->

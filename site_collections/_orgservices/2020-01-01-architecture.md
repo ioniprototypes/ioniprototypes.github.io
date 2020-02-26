@@ -6,7 +6,7 @@ title: "Helping Build Agile Architectures and Practices"
 description: "Focus areas where we can help build agile architectures and team practices and skills"
 subline: "last updated 3rd Jan"
 categories: [orgservice]
-serviceName: Architecture
+serviceName: architecture
 displayCategory: Architecture
 tags: [architecture]
 publishedDate: 1/1/2020
