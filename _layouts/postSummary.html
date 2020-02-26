@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <!-- header Head  -->
+      {% include headerHead.html %}
+    <!--end header Head-->
+    <!-- main Navigation  -->
+        {% include mainNavigation.html %}
+    <!--end main Navigation -->
+  <body>
+    <!-- MAIN CONTENT -->
+    <div class="container">
+      {% include aftermenupadding.html %}
+      {% assign service={{page.serviceName}} %}
+      <!-- MAIN CONTENT -->
+      <div class="container">
+        <div>
+        <!-- Variable Content-->
+          <section >
+          {{ content }}
+          </section>
+        </div>
+        <div>
+          <!--temp fix, gets site.collectionName-->
+          {% assign source=site.posts %}
+          <!--for given collection name display all pages in that ioni service collection-->
+          {% include cardlayout.html collectionName= source %}
+          <!--end of cards for defined collection-->
+        </div>
+       </div> 
+    </div>
+  </body>
+  <!-- FOOTER  -->
+    {% include footer.html %}
+  <!--End Footer -->

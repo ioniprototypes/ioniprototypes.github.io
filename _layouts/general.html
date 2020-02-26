@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- header Head  -->
+      {% include headerHead.html %}
+    <!--end header Head-->
+  </head>
+  <body>
+    <div class="container">
+        <!-- main Navigation  -->
+        {% include mainNavigation.html %}
+        <!--end main Navigation -->
+    </div>
+      <!-- MAIN CONTENT -->
+    <div class="container">
+        <!-- include padding  -->
+        {% include aftermenupadding.html %}
+        <!--end of padding -->
+        <div>
+        <!-- Variable Content-->
+        <section >
+        {{ content }}
+        </section>
+        </div>
+    </div>
+  </body>
+  <!-- FOOTER  -->
+    {% include footer.html %}
+  <!--End Footer -->
+</html>

@@ -1,22 +1,20 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+
+<nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="/home">
+      <img src="/images/ioni_bl_w.png" width="50" height="30" class="d-inline-block align-top" alt="IONI">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
+
+        {% assign menuItems = site.data.navigation | sort: 'order'  %}
+        {% for menuItem in menuItems %}
+          <li class="nav-item {% if page.Category == menuItem.name %} active {% endif %} " >
+              <a class="nav-link {% if menuItem.status == 'Inactive' %} disabled {% endif %} " href={{menuItem.link}}>{{menuItem.name}}<span class="sr-only">(current)</span></a>
+          </li>
+        {% endfor %} 
       </ul>
     </div>
-  </nav>
+</nav>

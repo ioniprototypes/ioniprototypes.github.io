@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <!-- header Head  -->
+      {% include headerHead.html %}
+    <!--end header Head-->
+    <!-- main Navigation  -->
+        {% include mainNavigation.html %}
+    <!--end main Navigation -->
+  <body>
+    <!-- MAIN CONTENT -->
+    <div class='container'>
+      <div/>
+        <br>
+      </div>  
+      <section>
+       <!-- Site Product Summary--> 
+       {% include serviceSummary.html %}
+      </section>
+      <!-- Variable Content-->
+      <section >
+        {{ content }}
+      </section>
+    </div>
+  </body>
+  <!-- FOOTER  -->
+    {% include footer.html %}
+  <!--End Footer -->
+</html>
